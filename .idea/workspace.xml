@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="add git">
-      <change afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
+    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="config add">
+      <change afterPath="$PROJECT_DIR$/src/api/endpoints/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/endpoints/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/endpoints/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767564339628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="config add">
+      <option name="closed" value="true" />
+      <created>1767634753600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767634753600</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add structure and main.py" />
     <MESSAGE value="add git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add git" />
+    <MESSAGE value="config add" />
+    <option name="LAST_COMMIT_MESSAGE" value="config add" />
   </component>
 </project>
