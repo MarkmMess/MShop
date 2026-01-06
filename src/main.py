@@ -1,9 +1,21 @@
+from contextlib import asynccontextmanager
+
 import uvicorn
 from fastapi import FastAPI
-from api.endpoints import users, product
+from api_v1 import router as router_v1
+from core.config import settings
+from models import Base, db_helper
 
-app = FastAPI()
-app.include_router(product.router)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    async with db_helper.engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+    yield
+
+
+app = FastAPI(lifespan=lifespan)
+app.include_router(router=router_v1, prefix=settings.api_v1_prefix)
 
 
 @app.get("/")
@@ -12,4 +24,4 @@ async def root():
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    uvicorn.run(app)
