@@ -4,7 +4,6 @@ from .base import Base
 
 
 class Product(Base):
-    __tablename__ = "product"
-    name = Mapped[str]
-    description = Mapped[str]
-    price = Mapped[float]
+    name: Mapped[str]
+    description: Mapped[str]
+    price: Mapped[float]
