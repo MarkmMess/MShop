@@ -37,7 +37,9 @@ async def product_update(
     session: AsyncSession = Depends(db_helper.scoped_session_dependency),
 ):
     return await crud.update_product(
-        product=product, product_update=product_update, session=session
+        product=product,
+        product_update=product_update,
+        session=session,
     )
 
 
@@ -48,7 +50,10 @@ async def product_update_partial(
     session: AsyncSession = Depends(db_helper.scoped_session_dependency),
 ):
     return await crud.update_product(
-        product=product, product_update=product_update, session=session, partial=True
+        product=product,
+        product_update=product_update,
+        session=session,
+        partial=True,
     )
 
 

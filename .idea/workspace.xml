@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="fixed bag with bd">
-      <change afterPath="$PROJECT_DIR$/src/api_v1/products/dependencies.py" afterDir="false" />
+    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api_v1/products/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/products/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api_v1/products/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/products/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api_v1/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/db_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/db_helper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767805629113</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates">
+      <option name="closed" value="true" />
+      <created>1767900384536</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767900384536</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +188,7 @@
     <MESSAGE value="api/endpoints add" />
     <MESSAGE value="add product db_helper, base, crud, db_helper, views, init, config and changes in main" />
     <MESSAGE value="fixed bag with bd" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bag with bd" />
+    <MESSAGE value="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates" />
   </component>
 </project>
