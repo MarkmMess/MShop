@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates">
+    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="db_echo in engine True">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api_v1/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_v1/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/db_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/db_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/vanilnyjpuding/Projects/MShop",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vanilnyjpuding/Projects/MShop&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MShop" />
@@ -167,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767900384536</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="db_echo in engine True">
+      <option name="closed" value="true" />
+      <created>1767902710962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767902710962</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +197,7 @@
     <MESSAGE value="add product db_helper, base, crud, db_helper, views, init, config and changes in main" />
     <MESSAGE value="fixed bag with bd" />
     <MESSAGE value="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates" />
+    <MESSAGE value="db_echo in engine True" />
+    <option name="LAST_COMMIT_MESSAGE" value="db_echo in engine True" />
   </component>
 </project>
