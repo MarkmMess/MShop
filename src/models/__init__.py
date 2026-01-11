@@ -4,9 +4,11 @@ __all__ = (
     "db_helper",
     "DataBaseHelper",
     "User",
+    "Post",
 )
 
 from .product import Product
 from .base import Base
 from .db_helper import db_helper, DataBaseHelper
 from .user import User
+from .post import Post
