@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="db_echo in engine True">
+    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="git ignor add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/alembic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alembic/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767902710962</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="alembic add">
+      <option name="closed" value="true" />
+      <created>1768043937237</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768043937237</updated>
+    </task>
+    <task id="LOCAL-00011" summary="git ignor add">
+      <option name="closed" value="true" />
+      <created>1768043981424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768043981424</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +215,8 @@
     <MESSAGE value="fixed bag with bd" />
     <MESSAGE value="add update, partial update and delete for product.&#10;add file dependencies that is used in views for delete and updates" />
     <MESSAGE value="db_echo in engine True" />
-    <option name="LAST_COMMIT_MESSAGE" value="db_echo in engine True" />
+    <MESSAGE value="alembic add" />
+    <MESSAGE value="git ignor add" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignor add" />
   </component>
 </project>

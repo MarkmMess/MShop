@@ -19,13 +19,23 @@ if config.config_file_name is not None:
 # add your model's MetaData object here
 # for 'autogenerate' support
 # from myapp import mymodel
-# target_metadata = mymodel.Base.metadata
-target_metadata = None
+try:
+    from core.config import settings
+    from models.base import Base
+except ImportError:
+    import sys
+
+    sys.path.insert(0, "..")
+    from core.config import settings  # type: ignore
+    from models.base import Base  # type: ignore
+
+target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
 # my_important_option = config.get_main_option("my_important_option")
 # ... etc.
+config.set_main_option("sqlalchemy.url", settings.db_url)
 
 
 def run_migrations_offline() -> None:
