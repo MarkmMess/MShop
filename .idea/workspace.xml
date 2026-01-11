@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="create migration for products table">
-      <change afterPath="$PROJECT_DIR$/src/models/user.py" afterDir="false" />
+    <list default="true" id="b00f95da-fbd9-42fb-9936-54b469dce484" name="Changes" comment="create migration for users table">
+      <change afterPath="$PROJECT_DIR$/src/models/post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alembic/env.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
@@ -208,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768135922447</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create user model">
+      <option name="closed" value="true" />
+      <created>1768135950187</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768135950187</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create migration for users table">
+      <option name="closed" value="true" />
+      <created>1768135959838</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1768135959838</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +250,8 @@
     <MESSAGE value="alembic add" />
     <MESSAGE value="git ignor add" />
     <MESSAGE value="create migration for products table" />
-    <option name="LAST_COMMIT_MESSAGE" value="create migration for products table" />
+    <MESSAGE value="create user model" />
+    <MESSAGE value="create migration for users table" />
+    <option name="LAST_COMMIT_MESSAGE" value="create migration for users table" />
   </component>
 </project>
