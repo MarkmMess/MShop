@@ -28,6 +28,8 @@ except ImportError:
     sys.path.insert(0, "..")
     from core.config import settings  # type: ignore
     from models.base import Base  # type: ignore
+    from models.product import Product  # type: ignore
+    from models.user import User  # type: ignore
 
 target_metadata = Base.metadata
 
