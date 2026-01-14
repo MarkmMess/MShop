@@ -269,7 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768413332427</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="delete migration for profile table because of bug">
+      <option name="closed" value="true" />
+      <created>1768413869015</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1768413869015</updated>
+    </task>
+    <task id="LOCAL-00023" summary="create migration for profile table">
+      <option name="closed" value="true" />
+      <created>1768413878878</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1768413878878</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +318,7 @@
     <MESSAGE value="create relationships between user and post" />
     <MESSAGE value="create user relation mixin" />
     <MESSAGE value="create profile for user" />
+    <MESSAGE value="delete migration for profile table because of bug" />
     <MESSAGE value="create migration for profile table" />
     <option name="LAST_COMMIT_MESSAGE" value="create migration for profile table" />
   </component>
