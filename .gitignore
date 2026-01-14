@@ -1,2 +1,6 @@
 /src/db.sqlite3
 .idea/
+*.iml
+*.ipr
+*.iws
+workspace.xml
