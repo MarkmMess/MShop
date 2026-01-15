@@ -1,6 +1,23 @@
-/src/db.sqlite3
+# Database
+src/db.sqlite3
+
+# IDE
 .idea/
 *.iml
 *.ipr
 *.iws
 workspace.xml
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Project files
+*.log
+*.sqlite
+EOF
