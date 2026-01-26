@@ -1,8 +1,12 @@
-from sqlalchemy import Table, Column, Integer, ForeignKey, UniqueConstraint
-from sqlalchemy.orm import mapped_column, Mapped
+from typing import TYPE_CHECKING
 
-from . import Order, Product
+from sqlalchemy import ForeignKey, UniqueConstraint
+from sqlalchemy.orm import mapped_column, Mapped, relationship
+
 from .base import Base
+
+if TYPE_CHECKING:
+    from . import Order, Product
 
 
 class OrderProductAssociation(Base):
@@ -15,7 +19,11 @@ class OrderProductAssociation(Base):
         ),
     )
 
-    id: Mapped[int] = Column(primary_key=True)
-    order_id: Mapped[int] = mapped_column(ForeignKey(Order.id))
-    product_id: Mapped[int] = mapped_column(ForeignKey(Product.id))
+    id: Mapped[int] = mapped_column(primary_key=True)
+    order_id: Mapped[int] = mapped_column(ForeignKey("orders.id"))
+    product_id: Mapped[int] = mapped_column(ForeignKey("products.id"))
     count: Mapped[int] = mapped_column(default=1, server_default="1")
+    unit_price: Mapped[int] = mapped_column(default=0, server_default="0")
+
+    order: Mapped["Order"] = relationship(back_populates="products_details")
+    product: Mapped["Product"] = relationship(back_populates="orders_details")
