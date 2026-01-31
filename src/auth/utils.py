@@ -10,8 +10,8 @@ from src.core.config import settings
 def encode_jwt(
     token: dict,
     private_key: str = settings.auth_jwt.private_key_path.read_text(),
-    algorithm: str = settings.AuthJWT.algorithm,
-    expire_minutes: int = settings.AuthJWT.expire_minutes,
+    algorithm: str = settings.auth_jwt.algorithm,
+    expire_minutes: int = settings.auth_jwt.token_expire_minutes,
     expire_timedelta: timedelta | None = None,
 ):
     to_encode = token.copy()
@@ -35,7 +35,7 @@ def encode_jwt(
 def decode_jwt(
     token: dict,
     public_key: str = settings.auth_jwt.public_key_path.read_text(),
-    algorithm: str = settings.AuthJWT.algorithm,
+    algorithm: str = settings.auth_jwt.algorithm,
 ):
     decoded = jwt.decode(token, public_key, algorithms=[algorithm])
     return decoded
