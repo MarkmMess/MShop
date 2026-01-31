@@ -2,6 +2,7 @@ from fastapi import APIRouter
 
 from .products.views import router as product_router
 from .demo_auth.views import router as demo_auth_router
+from .demo_auth.demo_jwt_auth import router as demo_jwt_auth_router
 
 router = APIRouter()
 router.include_router(
@@ -11,4 +12,9 @@ router.include_router(
 router.include_router(
     router=demo_auth_router,
     prefix="/demo_auth",
+)
+
+router.include_router(
+    router=demo_jwt_auth_router,
+    prefix="/demo_jwt_auth",
 )
