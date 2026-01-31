@@ -49,7 +49,7 @@ def validate_auth_user(
 
 @router.post("/login/", response_model=TokenInfo)
 def auth_user_jwt(
-    user: UserSchema = Depends(validate_auth_user()),
+    user: UserSchema = Depends(validate_auth_user),
 ):
     jwt_token = {
         # subject
