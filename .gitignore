@@ -1,6 +1,9 @@
 # Database
 src/db.sqlite3
 
+# certefication
+/src/certs/
+
 # IDE
 .idea/
 *.iml
