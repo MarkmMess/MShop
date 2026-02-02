@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr, ConfigDict
 
 
 class TokenInfo(BaseModel):
@@ -6,3 +6,9 @@ class TokenInfo(BaseModel):
     token_type: str
 
 
+class UserSchema(BaseModel):
+    model_config = ConfigDict(strict=True)
+
+    username: str
+    password: bytes
+    active: bool = True
