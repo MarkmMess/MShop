@@ -1,11 +1,13 @@
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column
-from .mixins import UserRelationMixin
+
+# from .mixins import UserRelationMixin
 
 from .base import Base
 
 
-class Profile(UserRelationMixin, Base):
+# class Profile(UserRelationMixin, Base):
+class Profile(Base):
     _user_id_unique = True
     _user_back_populates = "profile"
 
