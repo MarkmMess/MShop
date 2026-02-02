@@ -5,6 +5,7 @@ class ProductBase(BaseModel):
     name: str
     description: str
     price: float
+    username: str
 
 
 class ProductCreate(ProductBase):
