@@ -13,3 +13,7 @@ class UserSchema(BaseModel):
     hashed_password: str
     email: EmailStr
     active: bool = True
+
+
+class CreateUser(UserSchema):
+    pass
