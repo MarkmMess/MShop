@@ -12,10 +12,12 @@ if TYPE_CHECKING:
 
 class User(Base):
     username: Mapped[str] = mapped_column(String(20), unique=True)
-    hashed_password: Mapped[str] = mapped_column(String(128), unique=True)
+    hashed_password: Mapped[str] = mapped_column(String(128), nullable=True)
+    email: Mapped[str] = mapped_column(String(128), nullable=True)
+    active: Mapped[bool] = mapped_column(nullable=True)
 
-    profile: Mapped["Profile"] = relationship(back_populates="users")
-    products: Mapped[list["Product"]] = relationship(back_populates="users")
+    profile: Mapped["Profile"] = relationship(back_populates="user")
+    products: Mapped[list["Product"]] = relationship(back_populates="user")
 
     def __str__(self):
         return f"{self.__class__.__name__}(id:{self.id}, username:{self.username!r})"
