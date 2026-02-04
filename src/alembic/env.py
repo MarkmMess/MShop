@@ -32,8 +32,9 @@ except ImportError:
     from models.user import User  # type: ignore
     from models.post import Post  # type: ignore
     from models.profile import Profile  # type: ignore
-    from models.order import Order  # type: ignore
-    from models.order_product_association import OrderProductAssociation  # type: ignore
+
+    # from models.order import Order  # type: ignore
+    # from models.order_product_association import OrderProductAssociation  # type: ignore
 
 target_metadata = Base.metadata
 
