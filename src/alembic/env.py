@@ -30,9 +30,9 @@ except ImportError:
     from models.base import Base  # type: ignore
     from models.product import Product  # type: ignore
     from models.user import User  # type: ignore
-    from models.post import Post  # type: ignore
     from models.profile import Profile  # type: ignore
 
+    # from models.post import Post  # type: ignore
     # from models.order import Order  # type: ignore
     # from models.order_product_association import OrderProductAssociation  # type: ignore
 
